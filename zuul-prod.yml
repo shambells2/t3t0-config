@@ -1,14 +1,10 @@
+environment: default
 eureka:
     client:
         serviceUrl:
             defaultZone: http://localhost:6112/eureka
 server:
     port: 8080
-spring:
-    application:
-        name: zuul
-    cloud:
-        uri: http://localhost:8888
 zuul:
     routes:
         html:
