@@ -26,4 +26,4 @@ zuul:
     routes:
         html:
             path: /html/**
-            url: http://localhost:6114
+            url: http://localhost:6114/html
