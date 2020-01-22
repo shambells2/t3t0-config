@@ -25,5 +25,4 @@ spring:
 zuul:
     routes:
         html:
-            path: /html/**
-            url: http://localhost:6114/html
+            url: http://localhost:6114
