@@ -1,14 +1,6 @@
-eureka:
-    client:
-        fetchRegistry: true
-        registerWithEureka: true
-        serviceUrl:
-            defaultZone: http://localhost:6112/eureka
-    instance:
-        instanceId: ':'
-        preferIpAddress: true
+
 logging:
-    file: dev/logs/zuul/zuul.log
+    file: logs/zuul/zuul.log
     level:
         com:
             teto: DEBUG
@@ -25,4 +17,5 @@ spring:
 zuul:
     routes:
         html:
+            path: /html/**
             url: http://localhost:6114
