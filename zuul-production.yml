@@ -1,4 +1,12 @@
-
+eureka:
+    client:
+        fetchRegistry: true
+        registerWithEureka: true
+        serviceUrl:
+            defaultZone: http://localhost:6112/eureka
+    instance:
+        instanceId: ':'
+        preferIpAddress: true
 logging:
     file: logs/zuul/zuul.log
     level:
@@ -13,7 +21,7 @@ server:
     port: ${PORT:8080}
 spring:
     application:
-        name: zuul
+        name: proxy-server
 zuul:
     routes:
         html:
