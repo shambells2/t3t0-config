@@ -1,0 +1,19 @@
+app:
+  title: "URL Identification"
+  description: "Identifies given URL as website, rest,soap etc"
+  version: "0.0.1-SNAPSHOT"
+  tos:
+    url: "http://www.t3t0.co.uk/licence.html"
+  licence:
+    type: "Subscription"
+    url: "No url"
+  contact: "Nobody yet"
+  supportUrl: "No url yet"
+  email: "Like you will get a reply"
+environment: default
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:6112/eureka
+server:
+  port: 6115
