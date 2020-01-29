@@ -7,4 +7,11 @@ eureka:
             defaultZone: http://localhost:6112/eureka
 server:
     port: 6200
+ribbon:
+    eureka:
+        enabled: false
+zuul:
+    routes:
+        html:
+            url: http://localhost:6114/html
 
