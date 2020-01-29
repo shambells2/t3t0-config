@@ -1,5 +1,12 @@
 app:
   title: "HTML Validation"
+  description: "WCG HTML validation incuding link checks"
+  version: "0.0.1-SNAPSHOT"
+  tos:
+    url: "http://www.t3t0.co.uk/licence.html"
+  licence:
+    type: "Subscription"
+    url: "No url"
 drools:
   directory: D:/GitHub/teto2/teto2/TETO_HOME/rules/html
 environment: default
