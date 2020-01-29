@@ -1,11 +1,13 @@
 environment: default
 eureka:
-    client:
-        serviceUrl:
-            defaultZone: http://localhost:6112/eureka
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:6112/eureka
 server:
-    port: 8080
+  port: 8080
 zuul:
-    routes:
-        html:
-            url: http://localhost:6114
+  routes:
+    html:
+      url: http://localhost:6114
+    urlid:
+      url: http://localhost:6115
