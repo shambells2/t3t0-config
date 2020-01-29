@@ -6,7 +6,7 @@ eureka:
         serviceUrl:
             defaultZone: http://localhost:6112/eureka
 server:
-    port: 6200
+    port: 9090
 ribbon:
     eureka:
         enabled: false
