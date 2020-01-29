@@ -7,6 +7,9 @@ app:
   licence:
     type: "Subscription"
     url: "No url"
+  contact: "Nobody yet"
+  supportUrl: "No url yet"
+  email: "Like you will get a reply"
 drools:
   directory: D:/GitHub/teto2/teto2/TETO_HOME/rules/html
 environment: default
