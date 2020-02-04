@@ -9,5 +9,5 @@ zuul:
   routes:
     html:
       url: http://localhost:6114
-    urlid:
+    tests:
       url: http://localhost:6115
