@@ -10,4 +10,4 @@ zuul:
     html:
       url: http://localhost:6114
     tests:
-      url: http://localhost:6115
+      url: http://localhost:6117
