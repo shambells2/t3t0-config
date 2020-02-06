@@ -19,3 +19,11 @@ eureka:
       defaultZone: http://localhost:6112/eureka
 server:
   port: 6114
+spring:
+    datasource:
+        password: Pr!cele22
+        url: jdbc:mysql://${MYSQL_HOST:localhost}:3306/t3t0
+        username: root
+    jpa:
+        hibernate:
+            ddl-auto: update
