@@ -14,4 +14,6 @@ zuul:
     routes:
         html:
             url: http://localhost:6114/html
+        tests:
+            url: http://localhost:6117/tests
 
