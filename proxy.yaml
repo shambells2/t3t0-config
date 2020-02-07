@@ -12,6 +12,8 @@ ribbon:
         enabled: false
 zuul:
     routes:
+        t3t0: 
+            url: http://localhost:4200
         html:
             url: http://localhost:6114/html
         tests:
