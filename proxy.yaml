@@ -13,7 +13,7 @@ ribbon:
 zuul:
     routes:
         t3t0: 
-            url: http://localhost:4200
+            url: http://localhost:4200/t3t0
         html:
             url: http://localhost:6114/html
         tests:
