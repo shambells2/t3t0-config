@@ -1,6 +1,6 @@
 app:
-  title: "Available tests"
-  description: "Available tests "
+  title: "Translation"
+  description: "Translation"
   version: "0.0.1-SNAPSHOT"
   tos:
     url: "http://www.t3t0.co.uk/licence.html"
@@ -12,13 +12,16 @@ app:
   email: "Like you will get a reply"
 drools:
   directory: D:/GitHub/teto2/teto2/TETO_HOME/rules/html
+translation:
+  properties:
+     location: D:/GitHub/teto-repo/TETO_HOME/i18n
 environment: default
 eureka:
   client:
     serviceUrl:
       defaultZone: http://localhost:6112/eureka
 server:
-  port: 6117
+  port: 6118
 spring:
     datasource:
         password: Pr!cele22

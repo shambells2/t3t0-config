@@ -1,6 +1,6 @@
 app:
-  title: "CSP Validation"
-  description: "Content Security Policy"
+  title: "Features"
+  description: "Available Features"
   version: "0.0.1-SNAPSHOT"
   tos:
     url: "http://www.t3t0.co.uk/licence.html"
@@ -11,11 +11,19 @@ app:
   supportUrl: "No url yet"
   email: "Like you will get a reply"
 drools:
-  directory: D:/GitHub/teto2/teto2/TETO_HOME/rules/html
+  directory: D:/GitHub/teto-repo/TETO_HOME/rules/html
 environment: default
 eureka:
   client:
     serviceUrl:
       defaultZone: http://localhost:6112/eureka
 server:
-  port: 6116
+  port: 6113
+spring:
+    datasource:
+        password: Pr!cele22
+        url: jdbc:mysql://${MYSQL_HOST:localhost}:3306/t3t0
+        username: root
+    jpa:
+        hibernate:
+            ddl-auto: update
