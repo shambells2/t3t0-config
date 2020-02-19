@@ -10,6 +10,7 @@ app:
   contact: "Nobody yet"
   supportUrl: "No url yet"
   email: "Like you will get a reply"
+  mode: "debug"
 features:
     file: D:\GitHub\teto-repo\TETO_HOME\tests\features.yaml
 drools:
