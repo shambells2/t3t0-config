@@ -12,9 +12,9 @@ app:
   email: "Like you will get a reply"
   mode: "debug"
 features:
-    file: D:\GitHub\teto-repo\TETO_HOME\tests\features.yaml
+    file: D:\GitHub\projects\teto-repo2\TETO_HOME\tests\features.yaml
 drools:
-  directory: D:/GitHub/teto2/teto2/TETO_HOME/rules/html
+  directory: D:/GitHub/projects/teto-repo2/TETO_HOME/rules/html
 environment: default
 eureka:
   client:
