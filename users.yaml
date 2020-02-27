@@ -1,6 +1,6 @@
 app:
-  title: "Vaadin"
-  description: "Vaadin UI"
+  title: "Users"
+  description: "Users authservice"
   version: "0.0.1-SNAPSHOT"
   tos:
     url: "http://www.t3t0.co.uk/licence.html"
@@ -18,7 +18,7 @@ eureka:
     serviceUrl:
       defaultZone: http://localhost:6112/eureka
 server:
-  port: 6118
+  port: 6116
 spring:
     datasource:
         password: Pr!cele22
