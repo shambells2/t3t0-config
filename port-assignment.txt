@@ -1,0 +1,11 @@
+nginx 7000
+config 8888
+zuul 9090
+
+eureka 6112
+test-features 6113
+html 6114
+urlid 6115
+users 6116
+tests 6117
+translation 6118
